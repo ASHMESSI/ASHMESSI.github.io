@@ -1,0 +1,27 @@
+.profile-card{
+  background-color: light blue;
+  border-radius: 50%;
+  
+}
+
+body{
+  background-color: lightblue;
+}
+
+h1{
+  color: blue;
+  font-family: arial;
+}
+
+h2{
+  color: crimson;
+  font-family: georgia;
+}
+
+h3{
+  color: darkorange;
+}
+
+.profile-card img{
+  border-radius: 50%;
+}
