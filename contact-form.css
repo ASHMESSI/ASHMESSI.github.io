@@ -1,0 +1,157 @@
+/* Style the whole page */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #0d172a;
+
+    margin: 0;
+
+    padding: 40px 16px;
+
+    color: #14213d;
+
+}
+
+/* Main heading */
+
+h1 {
+
+    text-align: center;
+
+    color: #ffffff;
+
+    margin-bottom: 10px;
+
+}
+
+/* Introductory paragraph */
+
+body > p {
+
+    text-align: center;
+
+    color: #cbd5e1;
+
+    margin-bottom: 30px;
+
+}
+
+/* The form card */
+
+form {
+
+    background-color: #ffffff;
+
+    max-width: 480px;
+
+    margin: 0 auto;
+
+    padding: 30px;
+
+    border-radius: 16px;
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Labels above the fields */
+
+label {
+
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+}
+
+/* Text fields and message box */
+
+input,
+
+textarea {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 12px;
+
+    border: 1px solid #d9e1ec;
+
+    border-radius: 8px;
+
+    font: inherit;
+
+    margin-bottom: 18px;
+
+}
+
+/* Let the user resize the message box vertically */
+
+textarea {
+
+    min-height: 130px;
+
+    resize: vertical;
+
+}
+
+/* Highlight the field being used */
+
+input:focus,
+
+textarea:focus {
+
+    outline: 2px solid #2563eb;
+
+    border-color: #2563eb;
+
+}
+
+/* Submit button */
+
+button {
+
+    width: 100%;
+
+    padding: 14px;
+
+    background-color: #2563eb;
+
+    color: #ffffff;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+/* Button hover effect */
+
+button:hover {
+
+    background-color: #1d4ed8;
+
+}
+
+/* Adjust the card on small screens */
+
+@media (max-width: 480px) {
+
+    form {
+
+        padding: 20px;
+
+    }
+
+}
